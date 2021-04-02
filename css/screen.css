@@ -204,6 +204,10 @@ a:focus {
     background-color: #F7F7F7;
 }
 
+.o.row--gradient {
+    background: linear-gradient(bottom left to bottom right, #5051db, #3887f7);
+}
+
 /* size modifiers */
 
 .o-row--lg {
@@ -534,6 +538,20 @@ a:focus {
     transition-property: transform background-color;
     transition-duration: .175s;
     transition-timing-function: ease-in;
+}
+
+.c-link-cta--inverse,
+.c-link-cta--inverse:visited,
+.c-link-cta--inverse:active {
+    color: #fff
+}
+
+.c-link-cta--inverse::after {
+    background-color: #fff;
+}
+
+.c-link-cta--inverse:hover::after {
+    background-color: #fff;
 }
 
 
