@@ -204,8 +204,9 @@ a:focus {
     background-color: #F7F7F7;
 }
 
-.o.row--gradient {
-    background: linear-gradient(bottom left to bottom right, #5051db, #3887f7);
+.o-row--gradient {
+    background: linear-gradient(to bottom right, #5051db, #3887f7);
+    color: white
 }
 
 /* size modifiers */
@@ -515,9 +516,9 @@ a:focus {
 }
 
 .c-link-cta::after {
-    content: " and more ";
+    content: " and more";
     transform: scaleX(1);
-    background-color: #3e3ea8;
+    color: #3e3ea8;
 }
 
 .c-link-cta:hover {
